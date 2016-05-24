@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Queue Tracker | Keep Track of Who's in Line</title>
+	<link rel="stylesheet" type="text/css" href="Queue.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="Queue.js"></script>
+	<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="col-md-12">
+				<header>
+					<h1>Queue</h1>
+				</header>
+			</div>
+			<div class="Serving">
+				<div class="col-md-12">
+					<h1>Now Serving:</h1>
+					<h1><span id="Front"></span></h1>
+					<button type="button" id="Next" onclick="nextInLine()">Next</button>
+				</div>
+			</div>
+			<div class="New">
+				<div class="col-md-12">
+					<h1>New Queue Member</h1>
+					<h1>Enter Name and Submit to Be Entered into the Queue.</h1>
+					
+						<input type="text" id="newName" placeholder="Enter Name Here"> <br> <br>
+						<input type="button" onclick="newEntry()" value="Submit">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
