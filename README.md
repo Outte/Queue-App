@@ -3,4 +3,4 @@ An app I'm creating to keep track of people standing in line and to manage a que
 
 This is an app that I created for fun and will be featured on my website: outtethedev.com.
 
-In order for it to function properly you must use Bootstrap.
+In order for the css to render properly you must use Bootstrap.
